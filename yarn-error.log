@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\thehi\apps\yarn\current\Yarn\bin\yarn.js build
+
+PATH: 
+  C:\Program Files\Java\jdk-13.0.1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Android;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\thehi\apps\nodejs\current\bin;C:\Users\thehi\apps\nodejs\current;C:\Users\thehi\apps\yarn\current\Yarn\bin;C:\Users\thehi\apps\yarn\current\global\node_modules\.bin;C:\Users\thehi\shims;C:\Users\thehi\scoop\shims;C:\Users\thehi\AppData\Local\Microsoft\WindowsApps;C:\Users\thehi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\thehi\AppData\Local\GitHubDesktop\bin;C:\Users\thehi\AppData\Local\Microsoft\WindowsApps;C:\Users\thehi\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\thehi\Desktop\doubsts\webpack-5\package.json: Unexpected token } in JSON at position 538
+      at JSON.parse (<anonymous>)
+      at C:\Users\thehi\apps\yarn\1.22.4\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\thehi\apps\yarn\1.22.4\Yarn\lib\cli.js:310:30)
+      at C:\Users\thehi\apps\yarn\1.22.4\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+  	"name": "pure-js-app-starter",
+  	"version": "1.0.0",
+  	"description": "Get vanillaJS apps written with modern tools",
+  	"main": "index.js",
+  	"scripts": {
+  		"build": "webpack",
+  		"test": "echo \"Error: no test specified\" && exit 1"
+  	},
+  	"babel": {
+  		"presets": [
+  			"@babel/preset-env"
+  		]
+  	},
+  	"browserslist": "> 0.25%, not dead",
+  	"author": "Tanay Pratap",
+  	"license": "MIT",
+  	"devDependencies": {
+  		"webpack": "^5.37.0",
+  		"webpack-cli": "^4.7.0",
+  		"@babel/core": "^7.14.2",
+  "@babel/preset-env": "^7.14.2",
+  "babel-loader": "^8.2.2",
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
